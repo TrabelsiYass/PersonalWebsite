@@ -1,0 +1,358 @@
+.freshIdeasFresh {
+  margin: 0;
+}
+.givingWingsTo {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.freshIdeasFreshContainer {
+  position: relative;
+  letter-spacing: -0.08em;
+}
+.groupChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-34xl);
+  width: 257px;
+  height: 51px;
+  object-fit: cover;
+}
+.startYourStories {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  font-size: var(--font-size-17xl);
+  letter-spacing: -0.08em;
+  font-family: var(--font-jejumyeongjo);
+  color: var(--color-white);
+  text-align: left;
+}
+.vectorParent {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  width: 257px;
+  position: relative;
+  height: 51px;
+}
+.freshIdeasFreshMomentsGivParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-149xl);
+}
+.titlesChild {
+  width: 1071px;
+  position: relative;
+  height: 512px;
+  object-fit: cover;
+}
+.titles {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-25xl);
+}
+.frameChild {
+  width: 74px;
+  position: relative;
+  border-radius: var(--br-67xl);
+  height: 34px;
+  object-fit: cover;
+}
+.rectangleWrapper {
+  width: 315px;
+  height: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px var(--padding-105xl);
+  box-sizing: border-box;
+}
+.entypoSocialinstagramWithCIcon {
+  position: absolute;
+  top: 1px;
+  left: 177px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.entypoSocialinstagramWithCIcon:hover{
+  cursor: pointer;
+  width: 60px;
+  height: px;
+}
+.entypoSocialgithubIcon {
+  position: absolute;
+  top: -1px;
+  left: 127px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.entypoSocialgithubIcon:hover{
+  cursor: pointer;
+  width: 60px;
+}
+.entypoSocialinstagramWithCIcon:hover{
+  cursor: pointer;
+  width: 60px;
+}
+.entypoSocialgoogleIcon:hover{
+  cursor: pointer;
+  width: 60px;
+}
+.entypoSocialgoogleIcon {
+  position: absolute;
+  top: 0px;
+  left: 36px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.vectorIcon {
+  position: absolute;
+  height: 62.5%;
+  width: 11.97%;
+  top: 5.36%;
+  right: 58.1%;
+  bottom: 32.14%;
+  left: 29.93%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon:hover{
+  cursor: pointer;
+  width:60px
+}
+.entypoSocialfacebookWithCiIcon {
+  position: absolute;
+  top: 0px;
+  left: 226px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.entypoSocialfacebookWithCiIcon:hover{
+  cursor: pointer;
+  width: 60px;
+}
+.entypoSocialinstagramWithCParent {
+  width: 284px;
+  position: relative;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-24xl) var(--padding-32xl) var(--padding-lg);
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  gap: var(--gap-609xl);
+}
+
+.joinUsChild {
+  width: 1300px;
+  position: relative;
+  height: 1.1px;
+  object-fit: contain;
+}
+.aboutUs {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.08em;
+  text-align: center;
+}
+.programmersAreTheContainer {
+  position: relative;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-20-size);
+  letter-spacing: -0.08em;
+  color: var(--color-white);
+}
+.readMore {
+  position: absolute;
+  top: 0px;
+  left: 927px;
+  letter-spacing: -0.08em;
+  cursor: pointer;
+}
+.readMore:hover{
+  font-size: larger;
+}
+.frameItem {
+  position: absolute;
+  top: 16px;
+  left: 1031px;
+  max-height: 100%;
+  width: 30px;
+  cursor: pointer;
+}
+
+.frame {
+  width: 1062px;
+  position: relative;
+  height: 37px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-24-size);
+  color: var(--color-moccasin);
+}
+.email {
+  border: none;
+  outline: none;
+  font-family: var(--font-nunito);
+  font-size: var(--font-size-xs);
+  background-color: transparent;
+  position: relative;
+  line-height: 17px;
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.innerFrame {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: var(--padding-5xs) var(--padding-xs);
+  background-color: var(--color-white);
+  width: 229px;
+  box-shadow:
+    0px 2px 2px rgba(0, 0, 0, 0.1) inset,
+    0px 2px 2px rgba(255, 255, 255, 0.15);
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  height: 33px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.innerFrameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0px;
+}
+.joinUs {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  margin-top: -2px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-jejumyeongjo);
+}
+.footer {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-42xl) 0px 0px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-jejumyeongjo);
+}
+
+@media screen and (max-width : 960px) {
+  .vectorParent{
+    width: 200px;
+  }
+  .groupChild{
+    width: 180px;
+    height: 100px;
+    left: -20px;
+  }
+  .frame{
+    left: -200px;
+  }
+  .entypoSocialinstagramWithCParent{
+    left: -400px;
+  }
+  .frameChild{
+    width: 100px;
+    height: 100px;
+  }
+  .rectangleWrapper{
+    width: 60px;
+  }
+  .aboutUs{
+    color: rgb(146, 49, 49);
+  }
+  .freshIdeasFreshContainer{
+    color: rgb(146, 49, 49);
+  }
+
+
+  
+}
+
+@media screen and (max-width : 500px) {
+  .vectorParent{
+    width: 20px;
+    left: -100px;
+  }
+  .groupChild{
+    left: -5px;
+    width: 80px;
+    height: 85px;
+  }
+  .startYourStories{
+    font-size: 20px;
+  }
+  .titlesChild {
+    left: -30px;
+    width: 460px;
+    height: 300px;
+  }
+  .frameParent{
+  flex-direction: column;
+  padding: 5px;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  gap: 50px;
+  }
+  .entypoSocialinstagramWithCParent{
+    left: 80px;
+  }
+  .rectangleWrapper{
+    transform: translateX(20%);
+    height: 50px;
+  }
+  .frame{
+    transform: translateX(-100px);
+  }
+  .aboutUs{
+    color: rgb(171, 250, 253);
+  }
+  .freshIdeasFreshContainer{
+    color: rgb(171, 250, 253);
+  }
+}

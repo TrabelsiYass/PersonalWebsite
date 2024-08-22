@@ -1,0 +1,161 @@
+/* Base styles */
+.header {
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the viewport */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-88xl);
+  background-color: var(--color-black); /* Ensure background color for visibility */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 58px;
+}
+
+.logoChild {
+  border-radius: var(--br-67xl);
+  width: 74px;
+  height: 54px;
+  object-fit: cover;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar > div {
+  margin-right: 20px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+/* Individual navigation items */
+.home1 {
+  color: var(--color-salmon-100);
+}
+
+.aboutMe,
+.projects,
+.contact {
+  cursor: pointer;
+}
+
+.frame1 {
+  display: flex;
+  flex-direction: row; /* Default to row layout */
+  justify-content: flex-end;
+  width: 100%; /* Ensure full width */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: var(--padding-base) var(--padding-5xl); /* Adjust padding for smaller screens */
+  }
+
+  .navbar > div {
+    margin-right: 15px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    padding: var(--padding-base) var(--padding-3xl); /* Further reduce padding */
+  }
+
+  .navbar {
+    gap: 10px; /* Reduce gap between navigation items */
+  }
+
+  .logoChild {
+    width: 60px; /* Adjust logo size for smaller screens */
+  }
+
+  .navbar > div {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-base) var(--padding-base); /* Adjust padding for very small screens */
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Make navbar full width */
+  }
+
+  .navbar > div {
+    margin: 10px 0; /* Vertical margin for stacked items */
+    font-size: 0.8rem; /* Smaller font size for mobile */
+  }
+
+  .logoChild {
+    width: 50px; /* Further
+
+
+
+@media screen and (max-width: 1200px) {
+  .header {
+    width: auto;
+    padding: var(--padding-base) var(--padding-5xl);
+    right: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .navbar {
+    width: auto;
+    gap: var(--gap-20xl); /* Adjust gap between navigation items */
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    width: auto;
+    padding: var(--padding-base) var(--padding-5xl);
+    right: 20px; /* Adjust padding for smaller screens */
+    font-size: smaller;
+  }
+  .navbar{
+    height: 18px;
+    width: auto;
+  }
+  .logoChild{
+    width: auto;
+    left: 320px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    width: auto;
+    align-items: flex-start; /* Adjust padding for very small screens */
+  }
+
+  .logoChild {
+    width: 50px; /* Further adjust logo size */
+    height: auto;
+  }
+
+  .navbar {
+    width: 100%; /* Make navbar full width */
+  }
+
+  .home, .aboutMe, .projects, .contact {
+    margin: 10px 0; /* Vertical margin for stacked items */
+    font-size: 0.8rem; /* Smaller font size for mobile */
+  }
+}

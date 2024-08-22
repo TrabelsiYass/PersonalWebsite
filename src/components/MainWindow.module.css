@@ -1,0 +1,56 @@
+.frame {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.mainWindow {
+  border: none;
+  padding: 0;
+  background-color: var(--color-gray-300);
+  width: 100%; /* Use percentage to make it responsive */
+  height: auto; /* Auto height for responsive design */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+
+/* Optional: Hover state if you want to maintain a hover effect */
+.mainWindow:hover {
+  background-color: var(--color-gray-300);
+}
+
+@media screen and (max-width: 1200px) {
+  .frame {
+    width: 100%; /* Ensure frame stretches with screen width */
+  }
+
+  .mainWindow {
+    width: 100%; /* Adjust width to be responsive */
+    max-width: 1200px; /* Adjust max-width */
+    flex-direction: column; /* Keep column layout on smaller screens */
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .mainWindow {
+    width: 100%; /* Adjust width to be responsive */
+    max-width: 960px; /* Adjust max-width */
+    flex-direction: row; /* Switch to row layout for narrower screens */
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .mainWindow {
+    width: 100%; /* Adjust width to be responsive */
+    max-width: 420px; /* Adjust max-width */
+    flex-direction: row; /* Switch to row layout for narrower screens */
+  }
+}

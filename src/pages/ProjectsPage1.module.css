@@ -1,0 +1,185 @@
+.projectsPage2Child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1024px;
+  object-fit: cover;
+}
+.monkeyDGarp {
+  position: absolute;
+  top: 217px;
+  left: 75px;
+  text-shadow:
+    1px 0 0 #000,
+    0 1px 0 #000,
+    -1px 0 0 #000,
+    0 -1px 0 #000;
+}
+.frameChild {
+  width: 376px;
+  position: relative;
+  height: 260px;
+  object-fit: cover;
+}
+.frameItem {
+  width: 434px;
+  position: relative;
+  height: 338px;
+  object-fit: cover;
+}
+.frameInner {
+  width: 434px;
+  position: relative;
+  height: 426px;
+  object-fit: cover;
+}
+.rectangleIcon {
+  width: 434px;
+  position: relative;
+  height: 380px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: absolute;
+  top: 582px;
+  left: -31px;
+  width: 1471px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-40xl);
+}
+.loremIpsumDolor {
+  margin: 0;
+}
+.loremIpsumDolorContainer {
+  position: absolute;
+  top: 356px;
+  left: 140px;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-32-size);
+  color: var(--color-black);
+}
+.logoChild {
+  position: absolute;
+  top: 4px;
+  left: 187.5px;
+  border-radius: var(--br-67xl);
+  width: 74px;
+  height: 54px;
+  object-fit: cover;
+}
+.logo {
+  width: 403.5px;
+  position: relative;
+  height: 58px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: inline-block;
+  width: 72.9px;
+  cursor: pointer;
+}
+.aboutMe {
+  position: absolute;
+  top: 0px;
+  left: 85px;
+  display: inline-block;
+  width: 100px;
+  cursor: pointer;
+}
+.projects {
+  position: absolute;
+  top: 0px;
+  left: 206.8px;
+  color: var(--color-firebrick-100);
+  display: inline-block;
+  width: 97.1px;
+}
+.contact {
+  position: absolute;
+  top: 0px;
+  left: 316.6px;
+  display: inline-block;
+  width: 90.4px;
+  cursor: pointer;
+}
+.navbar {
+  align-self: stretch;
+  position: relative;
+  height: 24px;
+}
+.frame {
+  width: 407px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-10xl) var(--padding-base)
+    var(--padding-88xl);
+  box-sizing: border-box;
+  gap: var(--gap-310xl);
+  text-align: left;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-24-size);
+  color: var(--color-white);
+  font-family: var(--font-jejumyeongjo);
+}
+.projectsPage2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    flex-direction: row;
+    gap: var(--gap-400xl);
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 960px) {
+  .frame {
+    display: none;
+  }
+
+  .header {
+    flex-direction: row;
+    gap: var(--gap-400xl);
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header {
+    flex-direction: column;
+    gap: var(--gap-400xl);
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+}

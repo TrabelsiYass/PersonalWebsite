@@ -1,0 +1,373 @@
+/* Base styles */
+
+.logoChild {
+  width: 74px;
+  position: relative;
+  border-radius: var(--br-67xl);
+  height: 54px;
+  object-fit: cover;
+  left: -130px;
+}
+
+.logo {
+  width: 403.5px;
+  height: 58px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0px 134.5px;
+  box-sizing: border-box;
+}
+.home {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: inline-block;
+  width: 72.2px;
+  cursor: pointer;
+}
+.aboutMe {
+  position: absolute;
+  top: 0px;
+  left: 84.7px;
+  display: inline-block;
+  width: 103px;
+}
+.projects {
+  position: absolute;
+  top: 0px;
+  left: 205.1px;
+  display: inline-block;
+  color: var(--color-firebrick-200);
+  width: 96.3px;
+  cursor: pointer;
+}
+.contact {
+  position: absolute;
+  top: 0px;
+  left: 313.8px;
+  display: inline-block;
+  width: 89.7px;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar > div {
+  margin-right: 20px; 
+  cursor: pointer;
+}
+.frame {
+  display: flex;
+  flex-direction: row; /* Default to row layout */
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%; /* Ensure full width */
+  transform: translateX(40%);
+}
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-88xl);
+  gap: var(--gap-259xl);
+  text-align: left;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-24-size);
+  color: var(--color-white);
+  font-family: var(--font-jejumyeongjo);
+  background: #000;
+}
+
+
+.projectsPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  height: 100vh; /* Use viewport height */
+  overflow: hidden;
+  text-align: left;
+  font-size: 1.25rem; /* Use rem for scaling */
+  color: var(--color-firebrick-100);
+  font-family: var(--font-jejumyeongjo);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectsPage:hover {
+  font-size: 2.5rem;
+}
+
+.projectsPageChild {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.monkeyDLufy {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  text-shadow:
+    1px 0 0 #000,
+    0 1px 0 #000,
+    -1px 0 0 #000,
+    0 -1px 0 #000;
+  font-size: 2rem; /* Adjust font size for responsiveness */
+}
+
+.frameChild, .frameItem, .frameItem1, .frameItem2 {
+  width: 75%; /* Use percentage width for responsiveness */
+  max-width: 200px; /* Max width for larger screens */
+  position: relative;
+  height: auto;
+  aspect-ratio: 1; /* Maintain square aspect ratio */
+  filter: opacity(0.5);
+  object-fit: cover;
+}
+
+.frameItem:hover, .frameItem1:hover, .frameItem2:hover {
+  height: auto;
+  filter: opacity(1);
+}
+
+.rectangleParent {
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%; /* Adjust width to fit smaller screens */
+  overflow: hidden;
+  display:inline;
+  flex-wrap: wrap;
+  gap: var(--gap-40xl);
+  justify-content: center;
+}
+
+
+.loremIpsumDolorContainer {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  font-size: 1rem; /* Adjust font size for readability */
+  color: white;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 8px;
+}
+
+.loremIpsumDolorContainer:hover {
+  background-color: #000000;
+  font-size: 1.875rem; /* Increase font size on hover */
+}
+
+/* Media Queries for responsiveness */
+
+/* For screens up to 1200px */
+@media screen and (max-width: 1200px) {
+  .navbar {
+    width: auto;
+    font-size: smaller;
+  }
+  .frame {
+    flex-direction: column;
+  }
+  .header {
+    gap: var(--gap-20xl); /* Adjust gap for vertical stacking */
+  }
+  .projectsPageChild {
+    width: 80%;
+    height: 80%;
+  }
+
+  .frameChild, .frameItem, .frameItem1, .frameItem2 {
+    width: 50%;
+    max-width: 160px;
+  }
+
+  .frameChild:hover, .frameItem:hover, .frameItem1:hover, .frameItem2:hover {
+    width: 190px;
+    filter: opacity(1);
+  }
+}
+
+
+
+/* For screens up to 992px */
+@media screen and (max-width: 992px) {
+  .projectsPage {
+    font-size: 1rem;
+  }
+  .navbar {
+    width: auto;
+    font-size: smaller;
+    transform: translateX(-280px);
+  }
+  .frame {
+    flex-direction: column;
+  }
+  .logo{
+    transform: translateX(-100px);
+  }
+  .header {
+    gap: 1px;
+  }
+
+  .monkeyDLufy {
+    top: 15%;
+    left: 3%;
+    font-size: 1.5rem;
+  }
+
+  .frameChild, .frameItem, .frameItem1, .frameItem2 {
+    width: 50%;
+    max-width: 150px;
+  }
+
+  .backgroundVideo {
+    width: 100%; /* Adjust for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .frameChild:hover, .frameItem:hover, .frameItem1:hover, .frameItem2:hover {
+    width: 30%;
+    filter: opacity(1);
+  }
+
+  .rectangleParent {
+    top: 75%;
+    width: 95%;
+    gap: var(--gap-30xl);
+  }
+
+  .loremIpsumDolorContainer {
+    top: 40%;
+    font-size: 0.875rem;
+    padding: 0.75rem;
+  }
+}
+
+/* For screens up to 768px */
+@media screen and (max-width: 768px) {
+  .projectsPage {
+    font-size: 0.875rem;
+  }
+  .navbar {
+    width: auto;
+    font-size: smaller;
+  }
+  .frame {
+    flex-direction: column;
+  }
+  .header {
+    gap: var(--gap-20xl);
+  }
+
+  .monkeyDLufy {
+    top: 10%;
+    left: 2%;
+    font-size: 1.25rem;
+  }
+
+  .frameChild, .frameItem, .frameItem1, .frameItem2 {
+    width: 30%;
+    max-width: 100px;
+  }
+
+  .frameItem:hover, .frameItem1:hover, .frameItem2:hover {
+    width: 50%; /* Adjust hover size */
+    max-width: 150px; /* Max width for larger screens */
+    height: auto;
+    filter: opacity(1);
+  }
+
+  .backgroundVideo {
+    width: 100%; /* Adjust for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .rectangleParent {
+    top: 80%;
+    width: 100%;
+    gap: var(--gap-20xl);
+  }
+
+  .loremIpsumDolorContainer {
+    top: 45%;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+}
+
+/* For screens up to 480px */
+@media screen and (max-width: 480px) {
+  .projectsPage {
+    font-size: 0.75rem;
+  }
+  .navbar {
+    width: auto;
+    height: 10px;
+    font-size: 5px;
+  }
+  .frame {
+    flex-direction: column;
+  }
+  .logo{
+    transform: translate(-20%,10%);
+    height: 10px;
+    height: 45px;
+  }
+  .header {
+    flex-direction: column; /* Stack items vertically */
+    align-items:flex-start; /* Center content horizontally */
+    justify-content: left; /* Center content vertically */
+    padding: 0px; /* Adjust padding if necessary */
+    gap: 0px; /* Adjust gap for spacing between items */
+    font-size: 1rem; /* Adjust font size to be readable on small screens */
+    width: 100%; /* Full width to ensure visibility */
+    box-sizing:content-box; /* Include padding in width calculations */
+    position: relative; /* Ensure it's positioned correctly */
+    overflow: visible;
+
+  }
+
+  .monkeyDLufy {
+    top: 35%;
+    left: 1%;
+    font-size: 1rem;
+  }
+
+  .frameChild, .frameItem, .frameItem1, .frameItem2 {
+    width: 50%;
+    max-width: 80px;
+  }
+
+  .frameChild:hover, .frameItem:hover, .frameItem1:hover, .frameItem2:hover{
+    filter: opacity(1);
+    max-width: 80px;
+  }
+
+  .rectangleParent {
+    top: 85%;
+    width: 100%;
+    gap: var(--gap-xl);
+  }
+
+  .loremIpsumDolorContainer {
+    top: 50%;
+    font-size: 0.625rem;
+    padding: 0.25rem;
+  }
+}

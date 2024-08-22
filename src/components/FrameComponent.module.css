@@ -1,0 +1,302 @@
+.frameChild {
+  width: 116px;
+  position: relative;
+  height: 121px;
+  object-fit: cover;
+}
+.whatDrivesYour {
+  position: relative;
+  line-height: 99.47%;
+}
+.frame1 {
+  width: 836px;
+  height: 121px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+}
+.frameIcon {
+  width: 116px;
+  position: relative;
+  height: 144px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fromAYoung {
+  margin: 0;
+}
+.fromAYoungContainer {
+  position: relative;
+}
+.frame2 {
+  width: 1289px;
+  height: 292px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+  
+}
+.frameeeeeee {
+  width: 1300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: 5px solid white;
+  gap: var(--gap-109xl);
+
+}
+.frame {
+  position: absolute;
+  top: 120px;
+  left: -80px;
+  width: 1300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  
+  
+}
+.frameeeeee {
+  width: 1309px;
+  position: relative;
+  height: 573px;
+}
+.frame5 {
+  width: 1190px;
+  height: 121px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+}
+.frameInner {
+  position: absolute;
+  top: 23px;
+  left: 0px;
+  width: 116px;
+  height: 121px;
+  object-fit: cover;
+}
+.inAFieldContainer {
+  position: absolute;
+  top: 0px;
+  left: 231px;
+}
+.frame6 {
+  top: -10px;
+  width: 1280px;
+  position: relative;
+  height: 292px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameeeee {
+  width: auto;
+  height: au;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-109xl);
+  margin-left: -1309px;
+
+}
+.frame4 {
+  position: absolute;
+  top: 0px;
+  left: 7px;
+  height: 573px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-52xl) 0px 0px;
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  gap: var(--gap-1222xs);
+}
+
+.frame3 {
+  position: absolute;
+  top: 713px;
+  width: 1300px;
+  height: 573px;
+  overflow: hidden;
+  display: flex;
+  gap: var(--gap-0);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 5px solid white;
+  left: -80px;
+}
+
+.frame8 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 972px;
+  height: 121px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+}
+.frame9 {
+  position: absolute;
+  top: 249px;
+  left: 0px;
+  width: 1292px;
+  height: 292px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+}
+.frame7 {
+  position: absolute;
+  top: 2545px;
+  left: -80px;
+  width: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 5px solid white;
+}
+.frame10 {
+  width: 443px;
+  height: 121px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+}
+.frame11 {
+  width: 1209px;
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameee {
+  position: absolute;
+  top: -534px;
+  left: -80px;
+  width: 1300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-109xl);
+  border: 5px solid white;
+
+}
+.frame12 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1011px;
+  height: 121px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+}
+.frame13 {
+  position: absolute;
+  top: 249px;
+  left: 0px;
+  width: 1286px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+}
+.frameeeee1 {
+  position: absolute;
+  top: 1310px;
+  left: -80px;
+  width: 1300px;
+  border: 5px solid white;
+  height: 573px;
+}
+.frame14 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 975px;
+  height: 121px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+}
+.frame15 {
+  position: absolute;
+  top: 249px;
+  left: 0px;
+  width: 1295px;
+  height: 404px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-96xl);
+
+}
+.frameeee {
+  position: absolute;
+  top: 1910px;
+  left: -80px;
+  width: 1300px;
+  height: 600px;
+  border: 5px solid white;
+
+
+}
+.frameParent {
+  position: absolute;
+  top: 757px;
+  left: calc(50% - 604px);
+  width: 1209px;
+  height: 473px;
+  text-align: left;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-32-size);
+  color: var(--color-white);
+  font-family: var(--font-jejumyeongjo);
+}

@@ -1,0 +1,15 @@
+{
+  "locofyConfig": {
+    "project": "Portfolio",
+    "id": "66b89381cb22912a2e201a2e",
+    "framework": "react",
+    "typescript": false,
+    "styling": "CSS Modules",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\Souuu\\Music\\React By Me\\Portfolio\\src\\components",
+    "screensPath": "c:\\Users\\Souuu\\Music\\React By Me\\Portfolio\\src\\pages"
+  },
+  "git.ignoreLimitWarning": true
+}

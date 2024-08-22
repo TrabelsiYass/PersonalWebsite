@@ -1,0 +1,744 @@
+.logoChild {
+  position: absolute;
+  top: 4px;
+  left: 52.5px;
+  border-radius: var(--br-67xl);
+  width: 74px;
+  height: 54px;
+  object-fit: cover;
+}
+.logo {
+  width: 201px;
+  position: relative;
+  height: 58px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: var(--color-salmon-100);
+  display: inline-block;
+  width: 72.2px;
+}
+.aboutMe {
+  position: absolute;
+  top: 0px;
+  left: 84.7px;
+  display: inline-block;
+  width: 103px;
+  cursor: pointer;
+}
+.projects {
+  position: absolute;
+  top: 0px;
+  left: 205.1px;
+  display: inline-block;
+  width: 96.3px;
+  cursor: pointer;
+}
+.contact {
+  position: absolute;
+  top: 0px;
+  left: 313.8px;
+  display: inline-block;
+  width: 89.7px;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar > div {
+  margin-right: 20px; 
+  cursor: pointer;
+}
+.frame1 {
+  display: flex;
+  flex-direction: row; /* Default to row layout */
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%; /* Ensure full width */
+  transform: translateX(50%);
+}
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-88xl);
+  gap: var(--gap-259xl);
+  text-align: left;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-24-size);
+  color: var(--color-white);
+  font-family: var(--font-jejumyeongjo);
+}
+.forWebsiteAnd {
+  align-self: stretch;
+  position: relative;
+}
+.fullStuck {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.fullStuckDeveloperContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-77xl);
+}
+.scrollDown {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-20-size);
+  color: var(--color-gray-400);
+  text-align: center;
+}
+.forWebsiteAndSoftwareDevelParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameInner {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-163xl) var(--padding-87xl);
+}
+.frame2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.home {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-194xl);
+  background-image: url("/public/home@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.ourServices {
+  position: absolute;
+  top: 40px;
+  left: 44px;
+}
+.whatWeDo {
+  position: absolute;
+  top: 67px;
+  left: 87px;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-32-size);
+  letter-spacing: -0.08em;
+  color: var(--color-white);
+  display: inline-block;
+  width: 271px;
+  height: 55px;
+}
+.frameChild {
+  position: absolute;
+  top: 106px;
+  left: 40px;
+  width: 185px;
+  height: 0.5px;
+  object-fit: contain;
+}
+.ourServicesParent {
+  align-self: stretch;
+  position: relative;
+  height: 157px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.drivenByCuriosity {
+  margin: 0;
+}
+.drivenByCuriosityContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.08em;
+  width: auto;
+}
+.drivenByCuriosityContainer:hover{
+  font-size: larger;
+}
+.drivenByCuriosityAndAPassWrapper {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-6xl);
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-20-size);
+  color: var(--color-white);
+}
+.frameGroup {
+  width: 800px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-14xl) var(--padding-81xl) var(--padding-2xs)
+    var(--padding-9xl);
+  box-sizing: border-box;
+  font-size: var(--previewthemeforestnet-kumbh-sans-regular-16-size);
+}
+.frameItem {
+  width: 104px;
+  position: relative;
+  height: 97px;
+  object-fit: cover;
+}
+.vectorIcon {
+  width: 121px;
+  position: relative;
+  height: 93px;
+  margin-left: -100px;
+}
+.frame3 {
+  width: 159px;
+  height: 97px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-11xs) var(--padding-xl-3) var(--padding-11xs) 0px;
+  box-sizing: border-box;
+}
+.frame4 {
+  width: 293px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.designBox {
+  width: 500px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 300px;
+  gap: var(--gap-46xs);
+  text-align: center;
+}
+.designBox:hover {
+  height: 600px;
+  font-size: larger;
+}
+.devBoxChild {
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  width: 104px;
+  height: 97px;
+  object-fit: cover;
+}
+.weCraftTailoredContainer {
+  position: absolute;
+  top: 50px;
+  left: 180px;
+  display: inline-block;
+  width: 300px;
+}
+
+.vectorIcon1 {
+  position: absolute;
+  height: 50%;
+  width: 19.78%;
+  top: 2.72%;
+  right: 75.05%;
+  bottom: 47.28%;
+  left: 5.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.devBox {
+  width: 500px;
+  position: relative;
+  height: 184px;
+  overflow: hidden;
+  flex-shrink: 0;
+  top: 30px;
+}
+.devBox:hover{
+  height: 300px;
+}
+.devBox1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-lg);
+  gap: var(--gap-3xl);
+  width: 700px;
+  height: 100;
+  top: 30px;
+}
+.vectorIcon2 {
+  width: 98px;
+  position: relative;
+  height: 85px;
+}
+.vectorWrapper {
+  width: 105px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url("/public/rectangle-31@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.navigateTheComplexities {
+  width: 400px;
+  position: relative;
+  display: inline-block;
+  height: 300px;
+  margin-top: 200px;
+  left: 40px;
+  flex-shrink: 0;
+}
+.navigateTheComplexities:hover{
+  font-size: larger;
+}
+
+.weOfferComprehensive {
+  position: absolute;
+  top: 9px;
+  left: 180px;
+  display: inline-block;
+  width: 450px;
+  height: 400px;
+}
+
+.weOfferComprehensive:hover{
+  font-size: larger;
+}
+.carbondevelopmentIcon {
+  position: absolute;
+  top: 9px;
+  left: 31px;
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+}
+.devBox2 {
+  align-self: stretch;
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.designBoxParent {
+  width: 700px;
+  height: 900px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-10xl);
+  box-sizing: border-box;
+  color: var(--color-white);
+  transform: translate(900px,-400px);
+}
+.groupChild {
+  position: absolute;
+  top: 31.9px;
+  left: 186px;
+  width: 27.9px;
+  height: 15.9px;
+}
+.groupItem {
+  position: absolute;
+  top: 10.9px;
+  left: 38px;
+  width: 22.7px;
+  height: 11.5px;
+}
+.wn {
+  position: relative;
+}
+.wnWrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  height: 56px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-sm) var(--padding-30xl);
+  box-sizing: border-box;
+}
+.groupParent {
+  align-self: stretch;
+  position: relative;
+  height: 56px;
+}
+.groupWrapper {
+  position: relative;
+  width: 396px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  color: var(--color-gray-400);
+  top: -286px;
+  left: 712px;
+  
+}
+.frameParent {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0px 63px;
+}
+.about {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-19xl) var(--padding-20xl);
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-20-size);
+  color: var(--color-gray-600);
+  height: 1400px;
+}
+.frame {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-24-size);
+  color: var(--color-white);
+  font-family: var(--font-jejumyeongjo);
+}
+
+@media screen and (max-width: 1200px) {
+  .home {
+    background-image: url("/public/home@3x.png");
+    background-size: cover;
+  }
+  .frame1 {
+    flex-direction: column;
+  }
+  .logo {
+    width: 201px;
+    position: relative;
+    height: 58px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .header {
+    gap: var(--gap-20xl); /* Adjust gap for vertical stacking */
+  }
+
+  .navbar{
+    transform: translateX(-260px);
+    margin-right: 100px;
+  }
+  .frameParent{
+    transform: translateX(-30%);
+    }
+    .whatWeDo{
+      top: 67px;
+      left: 407px;
+      font-size: 35px;
+      color: rgb(255, 255, 255);
+      width: 271px;
+    }
+    .drivenByCuriosityAndAPassWrapper{
+      transform: translateX(60%);
+    }
+    .drivenByCuriosityContainer{
+      width: 320px;
+    }
+    .drivenByCuriosity{
+      font-size: 20px;
+    }
+  
+    .designBoxParent{
+      transform: translate(60%,-50%);
+      height:auto;
+      width: auto;
+    }
+    .designBox{
+      height: auto;
+      width: auto;
+    }
+    .devBox{
+      height: 170px;
+      width: 500px;
+      text-align: center;
+    }
+    .devBox1{
+      height: 220px;
+      width: fit-content;
+    }
+    .devBox2{
+      height: 400px;
+      width: 500px;
+    }
+    .weCraftTailoredContainer{
+      transform: translateX(-10%);
+    }
+    .navigateTheComplexities{
+      transform: translateX(-10%);
+      width: 290px;
+    }
+    .weOfferComprehensive{
+      transform: translateX(-10%);
+      width: 290px;
+    }
+    .frameParent{
+      width:  1600px;
+      font-size: smaller;
+    }
+    .about{
+      padding: 10;
+    }
+
+}
+@media screen and (max-width: 960px) {
+  .frame2{
+    font-size: 40px;
+  }
+  .home {
+    background-image: url("/public/home@3x.png"); /* Optional: Use a smaller image */
+    background-size: contain; /* Adjust size to fit */
+    background-position: center; /* Center image */
+  }
+  
+  .frame1 {
+    flex-direction: column; /* Ensure full width */
+    
+}
+
+  .header {
+    flex-direction: column; /* Stack header items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: var(--gap-20xl); /* Adjust gap for vertical stacking */
+  }
+
+  .navbar{
+    gap: 8px; /* Spacing between navbar items */
+    height: 7px;
+  }
+  .fullStuckDeveloperContainer {
+    font-size: 50px;
+    color: rgb(146, 49, 49);
+  }
+  .scrollDown{
+    font-size: 15px;
+  }
+  .frameInner{
+    height: 400px;
+  }
+  .about{
+    width: fit-content ;
+    height: auto;
+  }
+  .frameParent{
+    height: auto;
+  }
+  .forWebsiteAnd{
+    font-size: 20px;
+  }
+  .whatWeDo{
+    top: 67px;
+    left: 307px;
+    font-size: 35px;
+    color: rgb(146, 49, 49);
+    display: inline-block;
+    width: 271px;
+  }
+  .drivenByCuriosityAndAPassWrapper{
+    transform: translateX(49%);
+  }
+  .drivenByCuriosityContainer{
+    width: 420px;
+  }
+  .drivenByCuriosity{
+    font-size: 18px;
+  }
+
+  .designBoxParent{
+    transform: translate(41%,10%);
+    height:auto;
+    width: auto;
+  }
+  .designBox{
+    height: auto;
+    width: auto;
+  }
+  .devBox{
+    height: 170px;
+    width: 500px;
+    text-align: center;
+  }
+  .devBox1{
+    height: 220px;
+    width: fit-content;
+  }
+  .devBox2{
+    height: 400px;
+    width: 500px;
+  }
+  .weCraftTailoredContainer{
+    transform: translateX(-10%);
+  }
+  .navigateTheComplexities{
+    transform: translateX(-10%);
+    width: 290px;
+  }
+  .weOfferComprehensive{
+    transform: translateX(-10%);
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .frame2{
+    font-size: 20px;
+  }
+  .home {
+    gap: var(--gap-6xs); /* Reduce gap */
+    background-image: url("/public/home@3x.png"); /* Optional: Use a smaller image */
+    background-size: contain; /* Adjust size to fit */
+    background-position: center; /* Center image */
+  }
+  
+  .frame1 {
+    flex-direction: column; /* Ensure full width */
+    
+}
+
+  .header {
+    flex-direction: column; /* Stack header items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: var(--gap-20xl); /* Adjust gap for vertical stacking */
+  }
+  .home1{
+    color: rgb(171, 250, 253);
+
+  }
+
+
+  .navbar{
+    gap: 6px; /* Spacing between navbar items */
+    height: 5px;
+  }
+  .fullStuckDeveloperContainer {
+    font-size: 40px;
+    color: rgb(171, 250, 253);
+  }
+  .scrollDown{
+    font-size: 15px;
+  }
+  .frameInner{
+    height: 400px;
+  }
+  .about{
+    transform: translateX(-150px);
+  }
+  .frameParent{
+    height: auto;
+  }
+  .whatWeDo{
+    top: 67px;
+    left: 307px;
+    font-size: 35px;
+    color: rgb(171, 250, 253);
+    display: inline-block;
+    width: 271px;
+  }
+  .drivenByCuriosityAndAPassWrapper{
+    transform: translateX(49%);
+  }
+  .drivenByCuriosityContainer{
+    width: 420px;
+  }
+  .drivenByCuriosity{
+    font-size: 18px;
+  }
+
+  .designBoxParent{
+    transform: translate(41%,10%);
+    height:auto;
+    width: auto;
+  }
+  .designBox{
+    height: auto;
+    width: auto;
+  }
+  .devBox{
+    height: 170px;
+    width: 500px;
+    text-align: center;
+  }
+  .devBox1{
+    height: 220px;
+    width: fit-content;
+  }
+  .devBox2{
+    height: 400px;
+    width: 500px;
+  }
+  .weCraftTailoredContainer{
+    transform: translateX(-10%);
+  }
+  .navigateTheComplexities{
+    transform: translateX(-10%);
+    width: 290px;
+  }
+  .weOfferComprehensive{
+    transform: translateX(-10%);
+    width: 290px;
+  }
+  
+}

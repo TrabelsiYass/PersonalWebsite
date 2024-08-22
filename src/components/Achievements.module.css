@@ -1,0 +1,287 @@
+.ourAchievements {
+  position: absolute;
+  top: 40px;
+  left: 44px;
+}
+.achievementsUnlocked {
+  position: absolute;
+  top: 67px;
+  left: 87px;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-32-size);
+  letter-spacing: -0.08em;
+  color: var(--color-white);
+  display: inline-block;
+  width: 341px;
+  height: 55px;
+}
+.frameChild {
+  position: absolute;
+  top: 105.8px;
+  left: 40px;
+  width: 260px;
+  height: 0.7px;
+  object-fit: contain;
+}
+.ourAchievementsParent {
+  position: absolute;
+  top: -32px;
+  left: 0px;
+  width: 467px;
+  height: 157px;
+  overflow: hidden;
+}
+.achievementsInner {
+  align-self: stretch;
+  position: relative;
+  height: 125px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mobileChild {
+  position: absolute;
+  top: 50.3px;
+  left: -10px;
+  filter: invert();
+  border-radius: 50%;
+  background-color: var(--color-tomato);
+  border: 10px solid var(--color-red-100);
+  box-sizing: border-box;
+  width: 350px;
+  height: 350px;
+}
+.mobileItem {
+  position: absolute;
+  top: 30px;
+  left: 182px;
+  background-color: var(--color-gray-300);
+  width: 190.6px;
+  height: 190.7px;
+}
+.mobileInner {
+  position: absolute;
+  top: 220px;
+  left: 110px;
+  background-color: var(--color-gray-300);
+  width: 240px;
+  height: 190px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 50.3px;
+  left: -10px;
+  border-radius: 50%;
+  
+  background-color: var(--color-tomato);
+  border: 10px solid var(--color-gray-500);
+  box-sizing: border-box;
+  width: 350px ;
+  height: 350px;
+}
+.groupIcon {
+  position: absolute;
+  height: 17.99%;
+  width: 18.73%;
+  top: 26.19%;
+  right: 41.92%;
+  bottom: 55.82%;
+  left: 39.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.completedMobile {
+  margin: 0;
+}
+.projects {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.completedMobileProjectsContainer {
+  position: absolute;
+  top: 167px;
+  left: 53px;
+  display: inline-block;
+  width: 176px;
+  height: 99px;
+}
+.mobile {
+  width: 331.6px;
+  position: relative;
+  height: 378px;
+}
+.clientsChild {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 50%;
+  filter: blur(10px);
+  background-color: var(--color-tomato);
+  border: 10px solid var(--color-springgreen);
+  box-sizing: border-box;
+  width: 350px;
+  height: 350px;
+}
+.clientsItem {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  border-radius: 50%;
+  background-color: var(--color-tomato);
+  border: 10px solid #048000;
+  box-sizing: border-box;
+  width: 350px;
+  height: 350px;
+}
+.lineMdaccountIcon {
+  position: absolute;
+  top: 61.7px;
+  left: 127px;
+  width: 65px;
+  height: 68px;
+  overflow: hidden;
+}
+.delightedClients {
+  position: absolute;
+  top: 166.7px;
+  left: 73px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 176px;
+  height: 99px;
+}
+.clients {
+  width: 300px;
+  position: relative;
+  height: 300.7px;
+  transform: translate(-6%,-25%);
+}
+.persClientsChild {
+  position: absolute;
+  filter: blur(10px);
+  top: 75px;
+  left: -10px;
+  border-radius: 50%;
+  background-color: var(--color-tomato);
+  border: 10px solid var(--color-springgreen);
+  box-sizing: border-box;
+  width: 350px;
+  height: 350px;
+}
+
+.persClientsInner {
+  position: absolute;
+  top: 75px;
+  left: -10px;
+  border-radius: 50%;
+  background-color: var(--color-tomato);
+  border: 10px solid #048000;
+  box-sizing: border-box;
+  width: 350px;
+  height: 350px;
+}
+.lineMdaccountAddIcon {
+  position: absolute;
+  top: 110.7px;
+  left: 130px;
+  width: 84px;
+  height: 81px;
+  overflow: hidden;
+}
+.perspectiveClients {
+  position: absolute;
+  top: 191.7px;
+  left: 73px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 176px;
+  height: 99px;
+
+}
+.persClients {
+  width: 329px;
+  position: relative;
+  height: 450px;
+  transform: translate(7%,-20%);
+
+}
+.webParent {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  padding: 0px var(--padding-35xl);
+  gap: 100px;
+  margin-top: -100px;
+  font-size: var(--previewthemeforestnet-kumbh-sans-medium-32-size);
+  color: var(--color-white);
+}
+.achievements {
+  align-self: stretch;
+  height: auto;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xl) var(--padding-64xl) var(--padding-3xl)
+    var(--padding-70xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--previewthemeforestnet-kumbh-sans-regular-16-size);
+  color: var(--color-gray-600);
+  font-family: var(--font-jejumyeongjo);
+}
+
+
+@media screen and (max-width : 1200px) {
+  .clients{
+    transform: translate(-10%,60%);
+  }
+  .persClients{
+    height: 650px;
+    transform: translate(-5%,20%);
+  }
+  .mobile{
+    transform: translate(-6%,40%);
+  }
+  .achievements{
+    font-size: 1px;
+    align-items: left;
+
+  }
+  .webParent{
+    gap: 80px;
+  }
+
+}
+
+
+@media screen and (max-width: 960px) {
+  .achievements {
+    padding: var(--padding-lg) var(--padding-32xl) var(--padding-lg) var(--padding-40xl);
+    font-size: var(--previewthemeforestnet-kumbh-sans-regular-12-size);
+  }
+  .ourAchievements{
+    left: 120px;
+  }
+  .achievementsUnlocked{
+    left: 150px;
+    color: rgb(146, 49, 49);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .achievements {
+    transform: translateY(80px);
+    padding: var(--padding-md) var(--padding-24xl) var(--padding-md) var(--padding-30xl);
+    font-size: var(--previewthemeforestnet-kumbh-sans-regular-10-size);
+  }
+  .achievementsUnlocked{
+    color: rgb(171, 250, 253);
+  }
+}
