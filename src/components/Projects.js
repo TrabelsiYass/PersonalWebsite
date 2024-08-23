@@ -7,8 +7,9 @@ const Projects = ({ className = "" }) => {
   const navigate = useNavigate();
 
   const onSeeMoreTextClick = useCallback(() => {
-    navigate("/projects-page");
+    navigate("/projects");
   }, [navigate]);
+
 
   return (
     <div className={[styles.projects, className].join(" ")}>
@@ -25,20 +26,59 @@ const Projects = ({ className = "" }) => {
       </div>
       <div className={styles.frameParent}>
         <div className={styles.rectangleParent}>
-          <img className={styles.frameItem} alt="" src="/rectangle-9@2x.png" />
-          <div className={styles.project1}>Project 1</div>
+        <a href="slider_1/index.html" target="_blank" rel="noopener noreferrer">
+          <img className={styles.frameItem} alt="" src="/Rotate.png" /></a>
+          <div className={styles.project1}>Animated Rotation</div>
         </div>
         <div className={styles.rectangleGroup}>
-          <img className={styles.frameItem} alt="" src="/rectangle-8@2x.png" />
-          <div className={styles.project1}>Project 2</div>
+        <a href="scroll_animation/index.html" target="_blank" rel="noopener noreferrer">
+          <img className={styles.frameItem} alt="" src="/Scroll.png" />
+        </a>
+          <div className={styles.project1}>Animated Scroll</div>
         </div>
         <div className={styles.image1Parent}>
-          <img className={styles.image1} alt="" src="/image-1@2x.png" />
-          <div className={styles.project1}>Project 3</div>
+        <a href="canvas/index.html" target="_blank" rel="noopener noreferrer">
+          <img className={styles.image1} alt="" src="/Spiderman.png" />
+        </a>
+          <div className={styles.project1}>Spiderman Website</div>
         </div>
         <div className={styles.rectangleGroup}>
-          <img className={styles.frameItem} alt="" src="/rectangle-10@2x.png" />
-          <div className={styles.project1}>Project 4</div>
+        <a href="3d Rotate CSS Only/index.html" target="_blank" rel="noopener noreferrer">
+          <img className={styles.frameItem} alt="" src="/3d.png" />
+        </a>
+          <div className={styles.project1}>3d Production</div>
+        </div>
+        <div className={styles.rectangleGroup}>
+        <a href="product_has_many_price/index.html" target="_blank" rel="noopener noreferrer">
+          <img className={styles.frameItem} alt="" src="/Product.png" />
+          </a>
+          <div className={styles.project1}>Product Detail</div>
+        </div>
+        <div className={styles.rectangleGroup}>
+        <a href="slider_3d/index.html" target="_blank" rel="noopener noreferrer">
+          <img className={styles.frameItem} alt="" src="/Dragons.png" />
+        </a>
+          <div className={styles.project1}>3d Rotated</div>
+        </div>
+        <div className={styles.rectangleGroup}>
+          <img className={styles.frameItem} alt="" src="/App.png" />
+          <div className={styles.project1}>Social IOS App</div>
+        </div>
+        <div className={styles.rectangleGroup}>
+          <img className={styles.frameItem} alt="" src="/Atlas_products.png" />
+          <div className={styles.project1}>e-commerce Website</div>
+        </div>
+        <div className={styles.rectangleGroup}>
+          <img className={styles.frameItem} alt="" src="/soft (3).png" />
+          <div className={styles.project1}>Network Monitoring Software</div>
+        </div>
+        <div className={styles.rectangleGroup}>
+          <img className={styles.frameItem} alt="" src="/software.png" />
+          <div className={styles.project1}>CRUD Software</div>
+        </div>
+        <div className={styles.rectangleGroup}>
+          <img className={styles.frameItem} alt="" src="/static.png" />
+          <div className={styles.project1}>Statistics Software</div>
         </div>
       </div>
       <div className={styles.projectsChild} />
