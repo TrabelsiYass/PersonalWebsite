@@ -175,9 +175,8 @@
   letter-spacing: -0.08em;
   width: auto;
 }
-.drivenByCuriosityContainer:hover{
-  font-size: larger;
-}
+
+
 .drivenByCuriosityAndAPassWrapper {
   align-self: stretch;
   overflow: hidden;
@@ -245,10 +244,6 @@
   gap: var(--gap-46xs);
   text-align: center;
 }
-.designBox:hover {
-  height: 600px;
-  font-size: larger;
-}
 .devBoxChild {
   position: absolute;
   top: 0px;
@@ -285,9 +280,7 @@
   flex-shrink: 0;
   top: 30px;
 }
-.devBox:hover{
-  height: 300px;
-}
+
 .devBox1 {
   align-self: stretch;
   overflow: hidden;
@@ -327,9 +320,7 @@
   left: 40px;
   flex-shrink: 0;
 }
-.navigateTheComplexities:hover{
-  font-size: larger;
-}
+
 
 .weOfferComprehensive {
   position: absolute;
@@ -338,10 +329,6 @@
   display: inline-block;
   width: 450px;
   height: 400px;
-}
-
-.weOfferComprehensive:hover{
-  font-size: larger;
 }
 .carbondevelopmentIcon {
   position: absolute;
@@ -644,7 +631,7 @@
 
 @media screen and (max-width: 500px) {
   .frame2{
-    font-size: 20px;
+    font-size: 10px;
   }
   .home {
     gap: var(--gap-6xs); /* Reduce gap */
@@ -674,6 +661,7 @@
     height: 5px;
   }
   .fullStuckDeveloperContainer {
+    width: 100%;
     font-size: 40px;
     color: rgb(171, 250, 253);
   }
@@ -688,23 +676,28 @@
   }
   .frameParent{
     height: auto;
+    width: auto;
+  }
+  .ourServicesParent{
+    left: 40px;
   }
   .whatWeDo{
     top: 67px;
-    left: 307px;
+    left: 357px;
     font-size: 35px;
     color: rgb(171, 250, 253);
     display: inline-block;
     width: 271px;
   }
   .drivenByCuriosityAndAPassWrapper{
-    transform: translateX(49%);
+    transform: translateX(45%);
   }
   .drivenByCuriosityContainer{
-    width: 420px;
+    width: 400px;
+    margin: 5px;
   }
   .drivenByCuriosity{
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .designBoxParent{
