@@ -302,9 +302,9 @@
     gap: 10px;
   }
   .projectsChild{
-    transform: translate(210px,90px);
-    width: 150px;
-    height: 35px;
+    transform: translate(220px,100px);
+    width: 0px;
+    height: 0px;
   }
   .seeMore{
     transform: translate(192px,80px);

@@ -1,17 +1,18 @@
+/* Base Styles */
 .frameeeChild {
   position: absolute;
   top: 272px;
   left: 0px;
-  width: 116px;
-  height: 121px;
+  width: auto;
+  height: auto;
   object-fit: cover;
 }
 .frameeeItem {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 116px;
-  height: 121px;
+  width: auto;
+  height: auto;
   object-fit: cover;
 }
 .whoAreYou {
@@ -31,8 +32,8 @@
   position: absolute;
   top: -534px;
   left: 0px;
-  width: 1209px;
-  height: 473px;
+  width: auto;
+  height: auto;
 }
 .whatDrivesYour {
   position: absolute;
@@ -44,15 +45,15 @@
   position: absolute;
   top: 0px;
   left: 80px;
-  width: 1289px;
-  height: 441px;
+  width: auto;
+  height: auto;
 }
 .frame {
   position: absolute;
   top: 0px;
   left: -80px;
-  width: 1369px;
-  height: 441px;
+  width: auto;
+  height: auto;
   overflow: hidden;
 }
 .rectangle {
@@ -62,37 +63,37 @@
   border-radius: var(--br-8xs);
   border: 5.1px solid var(--color-aqua);
   box-sizing: border-box;
-  width: 1209px;
-  height: 441px;
+  width: auto;
+  height: auto;
 }
 .frameeeeee {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 1209px;
-  height: 473px;
+  width: auto;
+  height: auto;
 }
 .frameeeee {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 1280px;
-  height: 441px;
+  width: auto;
+  height: auto;
 }
 .frame2 {
   position: absolute;
   top: 0px;
   left: 71px;
-  width: 1280px;
-  height: 473px;
+  width: auto;
+  height: auto;
   overflow: hidden;
 }
 .frame1 {
   position: absolute;
   top: 523px;
   left: -71px;
-  width: 1351px;
-  height: 473px;
+  width: auto;
+  height: auto;
   overflow: hidden;
 }
 .frameeeee1 {
@@ -156,4 +157,96 @@
   font-size: var(--previewthemeforestnet-kumbh-sans-medium-32-size);
   color: var(--color-white);
   font-family: var(--font-jejumyeongjo);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+  .frameeeChild {
+    top: 200px;
+    width: auto;
+  }
+  .whoAreYou {
+    top: 32px;
+    left: 200px;
+  }
+  .imAPassionateContainer {
+    top: 200px;
+    left: 200px;
+  }
+  .frame {
+    width: 90%;
+    left: -5%;
+  }
+  .rectangle {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .frameeeChild {
+    top: 150px;
+  }
+  .whoAreYou {
+    top: 20px;
+    left: 150px;
+  }
+  .imAPassionateContainer {
+    top: 150px;
+    left: 150px;
+  }
+  .frame {
+    width: 100%;
+    left: 0;
+  }
+  .rectangle {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .frameeeChild {
+    top: 100px;
+  }
+  .whoAreYou {
+    top: 15px;
+    left: 100px;
+  }
+  .imAPassionateContainer {
+    top: 100px;
+    left: 100px;
+  }
+  .frame {
+    width: 100%;
+    height: auto;
+  }
+  .rectangle {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .frameeeChild {
+    top: 50px;
+  }
+  .whoAreYou {
+    top: 10px;
+    left: 50px;
+    width: 150px;
+    font-size: smaller;
+  }
+  .imAPassionateContainer {
+    top: 50px;
+    left: 50px;
+  }
+  .frame {
+    width: 100%;
+    height: auto;
+  }
+  .rectangle {
+    width: 100%;
+    height: auto;
+  }
 }
