@@ -6,7 +6,7 @@ import styles from './Desktop1.module.css';
 
 function Desktop1() {
 
-  const navigate = useNavigate;
+  const navigate = useNavigate();
 
   const onHomeTextClick = useCallback(() => {
     navigate("/");
