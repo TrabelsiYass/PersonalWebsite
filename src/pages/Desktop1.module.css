@@ -43,11 +43,12 @@
 .aboutMe {
   left: 84.7px;
   width: 103px;
+  color: var(--color-firebrick-200);
+
 }
 
 .projects {
   left: 205.1px;
-  color: var(--color-firebrick-200);
   width: 96.3px;
   cursor: pointer;
 }
