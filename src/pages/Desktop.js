@@ -59,7 +59,7 @@ const Contact = () => {
   return (
     <div className={styles.container} ref={backgroundRef}>
       <header className={styles.header}>
-          <div className={styles.logo}>
+          <div className={styles.logo} onClick={onHomeTextClick}>
             <img className={styles.logoChild} alt="" src="/rectangle-34@2x.png" />
           </div>
           <div className={styles.frame}>

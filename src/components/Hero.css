@@ -1,0 +1,183 @@
+@import url('https://fonts.cdnfonts.com/css/gista-danes');
+                
+
+.main-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-color: black;
+}
+
+.behindTheCode {
+    position: absolute;
+    top: 40px;
+    left: 44px;
+  }
+.myStory {
+    position: absolute;
+    top: 67px;
+    left: 87px;
+    font-size: var(--previewthemeforestnet-kumbh-sans-medium-32-size);
+    letter-spacing: -0.08em;
+    color: var(--color-white);
+    display: inline-block;
+    width: 300px;
+    height: 55px;
+  }
+  .lineIcon {
+    position: absolute;
+    top: 106.1px;
+    left: 40px;
+    width: 130px;
+    height: 0.4px;
+    object-fit: contain;
+  }
+  .behindTheCodeParent {
+    position: absolute;
+    left: 0px;
+    width: 467px;
+    height: 157px;
+    overflow: hidden;
+  }
+  .behindTheCodeParent2 {
+    position: absolute;
+    left: 0px;
+    width: 467px;
+    height: 157px;
+    overflow: hidden;
+  }
+  .aboutMeInner {
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 125px;
+    overflow: hidden;
+    font-size: var(--previewthemeforestnet-kumbh-sans-regular-16-size);
+    font-family: var(--font-jejumyeongjo);
+    color: var(--color-gray-600);
+    background-color: black;
+}
+
+.aboutMeInner2 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 70px;
+    width: 383px;
+    height: 125px;
+    overflow: hidden;
+    font-size: var(--previewthemeforestnet-kumbh-sans-regular-16-size);
+    font-family: var(--font-jejumyeongjo);
+    color: var(--color-gray-600);
+    background-color: black;
+}
+
+.banner{
+    background-color: black;
+    width: 100%;
+    height: 1800px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .slider {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    z-index: 3;
+    animation: autoRun 20s linear infinite;
+    pointer-events: auto;
+}
+.banner .slider2 {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 60%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    z-index: 3;
+    animation: autoRun 20s linear infinite;
+    pointer-events: auto;
+}
+
+@keyframes autoRun {
+    from {
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }
+    to {
+        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    }
+}
+
+.banner .slider .item {
+    position: absolute;
+    inset: 0;
+    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(550px);
+    z-index: 4;
+}
+
+
+.banner .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .slider2 .item {
+    position: absolute;
+    inset: 0;
+    transform: rotateY(calc((var(--position) - 1) * (360 / 4) * 1deg)) translateZ(350px);
+    z-index: 4;
+}
+
+
+.banner .slider2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero{
+    font-family: 'Gista Danes', sans-serif;
+    background-color: aqua;
+    font-size: 100px;
+}
+
+
+@media screen and (max-width : 480px) {
+    .banner{
+        top : 100px;
+    }
+    .banner .slider img {
+        width: 50%;
+        height: 50%;
+    }
+    .banner .slider .item{
+        transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(180px);
+    }
+    .banner .slider2 img {
+        width: 50%;
+        height: 50%;
+    }
+    .banner .slider2 .item{
+        transform: rotateY(calc((var(--position) - 1) * (360 / 4) * 1deg)) translateZ(130px);
+    }
+    .myStory{
+        color: rgb(171, 250, 253);
+
+    }
+    .banner .slider2{
+        top: 40%;
+    }
+    .aboutMeInner2{
+        top: 30%;
+        left: -10px;
+    }
+}

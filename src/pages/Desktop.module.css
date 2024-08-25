@@ -28,6 +28,10 @@
   padding: 0px 134.5px;
   box-sizing: border-box;
 }
+
+.logo:hover{
+  cursor: pointer;
+}
 .home {
   position: absolute;
   top: 0px;
@@ -425,11 +429,18 @@ hr {
     justify-content: flex-end;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
   .header {
-    flex-direction: column;
-    gap: var(--gap-400xl);
-    align-items: flex-start;
-    justify-content: flex-end;
+    flex-direction: row; /* Stack header items vertically */
+    align-items: center; /* Center items horizontally */
+    gap: var(--gap-20xl); /* Adjust gap for vertical stacking */
+
+  }
+  .frame{
+    font-size: 10px;
+  }
+  .navbar{
+    gap: 6px; /* Spacing between navbar items */
+    height: 5px;
   }
 }

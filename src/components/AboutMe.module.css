@@ -13,7 +13,6 @@
 .rectangleWrapper {
   position: absolute;
   top: 149px;
-  left: -74px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -26,7 +25,7 @@
 .frameItem {
   position: absolute;
   top: 190px;
-  left: 125px;
+  left: 200px;
   background: linear-gradient(
     180deg,
     rgba(12, 12, 12, 0.28),
@@ -123,6 +122,7 @@
   font-size: var(--previewthemeforestnet-kumbh-sans-medium-32-size);
   color: var(--color-white);
   font-family: var(--font-jejumyeongjo);
+  background-color: black;
 }
 
 @media screen and (max-width: 1200px) {

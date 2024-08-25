@@ -640,6 +640,7 @@
     background-image: url("/public/home@3x.png"); /* Optional: Use a smaller image */
     background-size: contain; /* Adjust size to fit */
     background-position: center; /* Center image */
+    height: auto;
   }
   
   .frame1 {
@@ -651,6 +652,7 @@
     flex-direction: column; /* Stack header items vertically */
     align-items: center; /* Center items horizontally */
     gap: var(--gap-20xl); /* Adjust gap for vertical stacking */
+    height: auto;
   }
   .home1{
     color: rgb(171, 250, 253);
@@ -658,18 +660,19 @@
   }
 
   .frame2{
-    height: 411px;
+    height: auto;
   }
   .frameInner{
-    height: 411px;
+    height: auto;
   }
 
   .navbar{
     gap: 6px; /* Spacing between navbar items */
-    height: 5px;
+    height: 25px;
   }
   .fullStuckDeveloperContainer {
     width: 100%;
+    height: 100%;
     font-size: 40px;
     color: rgb(171, 250, 253);
   }
@@ -680,7 +683,7 @@
     transform: translateX(-150px);
   }
   .frameParent{
-    height: auto;
+    height: 100%;
     width: auto;
   }
   .ourServicesParent{
@@ -699,7 +702,7 @@
   }
   .drivenByCuriosityContainer{
     width: 400px;
-    margin: 5px;
+    margin: 3px;
   }
   .drivenByCuriosity{
     font-size: 15px;
@@ -721,22 +724,22 @@
   }
   .devBox1{
     height: 220px;
-    width: fit-content;
+    width: auto;
   }
   .devBox2{
     height: 400px;
-    width: 500px;
+    width: auto;
   }
   .weCraftTailoredContainer{
     transform: translateX(-10%);
   }
   .navigateTheComplexities{
     transform: translateX(-10%);
-    width: 290px;
+    width: 280px;
   }
   .weOfferComprehensive{
     transform: translateX(-10%);
-    width: 290px;
+    width: 280px;
   }
   
 }
